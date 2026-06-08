@@ -1,0 +1,296 @@
+{
+  "completion_status": "completed",
+  "ended_at": "2026-06-02 19:02:15",
+  "questions_reached": 11,
+  "total_questions": 10,
+  "transcript": [
+    {
+      "timestamp": "18:39:21",
+      "q_id": "intro",
+      "role": "intro",
+      "speaker": "AI Interviewer (Sandbox)",
+      "topic": null,
+      "text": "Hello! I'm your AI interviewer today. This session is recorded and transcribed. Do you consent to proceed? Please say yes to continue.",
+      "category": null
+    },
+    {
+      "timestamp": "18:39:45",
+      "q_id": "1",
+      "role": "question",
+      "speaker": "AI Interviewer (Sandbox)",
+      "topic": "Introduction",
+      "text": "Can you briefly introduce yourself and tell me about your current role?",
+      "category": null
+    },
+    {
+      "timestamp": "18:41:26",
+      "q_id": "1",
+      "role": "answer",
+      "speaker": "Candidate",
+      "topic": "Introduction",
+      "text": "software engineers with five hours of experience specializing in building scalable backend systems and cloud infrastructure i'm a software engineer with five hours of experience specializing in building scalable backend systems and cloud infrastructure in my current role as a senior engineer i lead and core platform team which consists of six engineers my primary responsibility include architecture throughput microservices in my current role as a senior engineer i lead and core platform team which consists of six engineers my primary responsibility include architecture high throughput microservices managing our database performance and mentoring junior developers managing our database performance and mentoring junior developers so over the past year i have been heavily focused on breaking down our legacy infrastructure into decoupled services to improve our systems overall uptime and developers velocity so over the past year i have been heavily focused on breaking down our legacy infrastructure into decoupled services to improve our systems overall uptime and developers velocity",
+      "category": "thin"
+    },
+    {
+      "timestamp": "18:41:27",
+      "q_id": "1.1",
+      "role": "followup_question",
+      "speaker": "AI Interviewer (Sandbox)",
+      "topic": "Introduction",
+      "text": "Can you explain to me in more detail what you mean by breaking down legacy infrastructure into decoupled services, and how exactly that improves uptime and developer velocity?",
+      "category": null
+    },
+    {
+      "timestamp": "18:43:00",
+      "q_id": "1.1",
+      "role": "followup_answer",
+      "speaker": "Candidate",
+      "topic": "Introduction",
+      "text": "i just said about it i'm a software engineer with years of experience and specialization in building scalable backend system and cloud infrastructure in my current role as a senior engineer i led the core platform team which consists of six engineers i just said about it i am a software engineer with five years of experience and specialization in building scalable backend system and cloud infrastructure in my current role as a senior engineer i led the core platform team which consists of six engineers",
+      "category": "thin"
+    },
+    {
+      "timestamp": "18:43:01",
+      "q_id": "2",
+      "role": "question",
+      "speaker": "AI Interviewer (Sandbox)",
+      "topic": "Technical Skills",
+      "text": "I appreciate you sharing your experience leading a core platform team with six engineers. \n\nCan you tell me about the programming languages you're most comfortable with and why those are your go-to choices?",
+      "category": null
+    },
+    {
+      "timestamp": "18:44:10",
+      "q_id": "2",
+      "role": "answer",
+      "speaker": "Candidate",
+      "topic": "Technical Skills",
+      "text": "this is my python it's my like deepest area of experience i prefer it for the rapid prototyping the data heavy applications and building rest api using the asynchronous frameworks like fast api this is my python it's my like deepest area of experience i prefer it for the rapid prototyping the data heavy applications and building rest api using the asynchronous frameworks like fast api this it's a clean syntax and massive ecosystem allows me to shift reliable code incredibly fast this it's a clean syntax and massive ecosystem allows me to shift reliable code incredibly fast so over last two years i have adopted go for our performance critical microservices i prefer it for high concurrency task because it's native core routines and low memory footprints are incredibly efficient so over last two years i have adopted go for our performance critical microservices i prefer it for high concurrency task because it's native core routines and low memory footprints are incredibly efficient",
+      "category": "strong"
+    },
+    {
+      "timestamp": "18:44:11",
+      "q_id": "3",
+      "role": "question",
+      "speaker": "AI Interviewer (Sandbox)",
+      "topic": "Project Experience",
+      "text": "I appreciate your emphasis on Python's ecosystem and syntax. \n\nSo let's talk about a challenging project you worked on recently, can you walk me through it?",
+      "category": null
+    },
+    {
+      "timestamp": "18:45:38",
+      "q_id": "3",
+      "role": "answer",
+      "speaker": "Candidate",
+      "topic": "Project Experience",
+      "text": "yes so recently i yes so recently i worked on a project so yeah i let the migration of real-time notification engine which was failing under peak traffic spikes so the existing system process push notification sequentially during major flash sales the database write lock would occur worked on a project so yeah i let the migration of real-time notification engine which was failing under peak traffic spikes so the existing system process push notification sequentially during major flash sales the database write lock would occur delaying the notifications up to like 45 minutes delaying the notifications up to like 45 minutes and causing the memory spikes that crashed our servers and causing the memory spikes that crashed our servers so my role here so my role here i was lead architect and developer for the overhaul i was lead architect and developer for the overhaul",
+      "category": "strong"
+    },
+    {
+      "timestamp": "18:45:40",
+      "q_id": "4",
+      "role": "question",
+      "speaker": "AI Interviewer (Sandbox)",
+      "topic": "Problem Solving",
+      "text": "So I noticed you mentioned the memory spikes that crashed our servers, and that must have been really frustrating to deal with in real-time. \n\nCan you tell me, how do you approach debugging a complex issue in production?",
+      "category": null
+    },
+    {
+      "timestamp": "18:47:34",
+      "q_id": "4",
+      "role": "answer",
+      "speaker": "Candidate",
+      "topic": "Problem Solving",
+      "text": "the decoupled id coupled system by introducing redis as an in-memory message buffer and built a pool of unsynchronous work in python process notification in parallel patches so we completely eliminated database bottlenecks the new architecture successfully it handled a peak load of over 25000 of notifications per second during our large sl event of the year the decoupled id couple system by introducing release as an in memory message buffer and built a poll of unsynchronous work in python process notification in parallel patches so we completely eliminated database bottlenecks the new architecture successfully it handled a peak load of over 25000 of notifications per second during our largest sale event of the year it reduced the latency from 45 minutes to under three seconds with it reduced the latency from 45 minutes to under three seconds with so i approached the production issues with systematic data driven methodology to minimize downtime so my first step is to access the blast radius using monitoring tools like data dog and centri i check if the issues is global associated with the specific region or affecting only the subset of users so i approach the production issues with systematic data driven methodology to minimize downtime so my first step is to access the blast radius using monitoring tools like data dog and centri and then if a recent deployment caused the issue my immediate priority would be to roll back or disable the feature flex to restore the service health before spending hours and i check if the issues is global associated with the specific region or affecting only the subset of users isolation and step back analysis so here once the system is stable i dive into our central locking system and iterates the request using correlation ids to isolate exactly where the handled exception or latency spike occurred and then if a recent deployment caused the issue my immediate priority would be to roll back or redisable the feature flex to restore the service health before spending hours and isolation and step back analysis so here once the system is stable i dive into our central locking system",
+      "category": "strong"
+    },
+    {
+      "timestamp": "18:47:35",
+      "q_id": "5",
+      "role": "question",
+      "speaker": "AI Interviewer (Sandbox)",
+      "topic": "System Design",
+      "text": "I'm impressed by how you completely eliminated database bottlenecks. Can you walk me through how you would design a system that needs to handle high traffic reliably?",
+      "category": null
+    },
+    {
+      "timestamp": "18:49:26",
+      "q_id": "5",
+      "role": "answer",
+      "speaker": "Candidate",
+      "topic": "System Design",
+      "text": "yes so and it raise the request using correlation ids to isolate exactly where the handled exception or latency spike occurred yes so to handle high traffic reliability i design with horizontal scalability and fault tolerance as a core principles here are my standard structural approach the edge layer where i place cdn like cloudflare at front of the static assets and handle ddos protection followed by highly available load balancer like aws to distribute traffic across the stateless application nodes to handle high traffic reliability i design with horizontal scalability and fault tolerance as a core principles here are my standard structural approach the edge layer where i place cdn like cloudflare at front of the cash static assets and handle ddos protection followed by highly available load balancer like aws to distribute traffic across the stateless application nodes",
+      "category": "strong"
+    },
+    {
+      "timestamp": "18:49:27",
+      "q_id": "6",
+      "role": "question",
+      "speaker": "AI Interviewer (Sandbox)",
+      "topic": "Collaboration",
+      "text": "I appreciate you emphasizing the importance of scalability and reliability in your design approach, that's really great to hear. Now, I'd like to hear about a time you had a disagreement with a teammate on a technical decision, and how you worked through it.",
+      "category": null
+    },
+    {
+      "timestamp": "18:51:05",
+      "q_id": "6",
+      "role": "answer",
+      "speaker": "Candidate",
+      "topic": "Collaboration",
+      "text": "so the application servers run inside the auto scaling assets and handle the ddos protection followed by highly available load balancers so the application servers inside the auto scaling cluster like kubernetes that scale the scale the pods horizontally based on ctu and memory preferred so to protect the database i implement strictly caching layer using redis for ready heavy operations utilizing the cache inside the patterns to keep the data fresh so the database choice i prefer relational databases like post gray sql for transactional consistency so the application servers run inside the auto scaling assets and handle the ddos protection followed by highly available load balancers so the application servers inside the auto scaling cluster like kubernetes that scale the scale the pods horizontally based on cto and memory threshold so to protect the database i implement strictly caching layer using ready for ready heavy operations utilizing the cache inside the patterns to keep the data fresh so the database choice i prefer relational databases like post gray sql for transactional consistency using the primary replica setup where read traffic is routed to read replicas for using the primary replica setup where read traffic is routed to read replicas for",
+      "category": "thin"
+    },
+    {
+      "timestamp": "18:51:06",
+      "q_id": "6.1",
+      "role": "followup_question",
+      "speaker": "AI Interviewer (Sandbox)",
+      "topic": "Collaboration",
+      "text": "I'm a little concerned that you said the application servers handle DDoS protection on their own, but isn't DDoS protection typically a function of the load balancers or firewalls rather than the application servers themselves?",
+      "category": null
+    },
+    {
+      "timestamp": "18:55:03",
+      "q_id": "6.1",
+      "role": "followup_answer",
+      "speaker": "Candidate",
+      "topic": "Collaboration",
+      "text": "so the critical to put it directly ddos is absolutely not an application framework or a tool used to load balancing these concepts so you can see exactly how they differ from the confusion so actually ddo is attack cyber attack where thousands of compromise devices board net it is it exactly opposite ddos is a malicious cyber attack flood specific target with the garbage so actually the load okay so the application servers so so to handle this concepts so you can see exactly how they differ from the confusion so actually ddos attack cyber attack where thousands of compromise devices board net flood specific target with the garbage okay so the application servers so so to handle one of the major disagreements while one of the peer engineer wanted to use graph database while i wanted to use the traditional relational database with json b5 fields which was sufficient as key so my approach was that we scheduled a meeting i listened to what his concern was and i openly acknowledged that graph database approach was theoretically good but most of our teammates were not comfortable with that so we held one day workshop and saw which one suits them well so later we found out that relational database everyone is comfortable with that and then we that's why we just been to even my teammate agreed with the decision and we delivered the feature on time so this taught me to keep the communication trans print and be patient with others thoughts and ideas as well one of the major disagreements while one of the peer engineer wanted to use graph database while i wanted to use the traditional relational database with json b files which was efficient as key so my approach was that we scheduled a meeting i listened to what is concern was and i openly acknowledged that graph database approach was theoretically good but most of our teammates were not comfortable with that so we held one day workshop and saw which one suits them well so later we found out that relational database everyone is comfortable with that and then we that's why we do even my teammate agreed with the decision and we delivered the feature on time so this taught me to keep the communication transparent and be patient with those thoughts and ideas as well yes i that was the approach yes i that was the approach can you move forward can you move forward",
+      "category": "strong"
+    },
+    {
+      "timestamp": "18:55:05",
+      "q_id": "7",
+      "role": "question",
+      "speaker": "AI Interviewer (Sandbox)",
+      "topic": "Code Quality",
+      "text": "I really appreciate how you walked your team through the decision-making process to find a solution that worked for everyone. You touched on this earlier. Since you've mentioned project description, methodology, and team size, how do these factors influence code maintainability, and what steps would you take to ensure reliability in your code, based on these elements?",
+      "category": null
+    },
+    {
+      "timestamp": "18:55:58",
+      "q_id": "7",
+      "role": "answer",
+      "speaker": "Candidate",
+      "topic": "Code Quality",
+      "text": "so i rely on combination of strict design principles and automated guardrails i rely on combination of strict design principles and automated guardrails testing and cicd i write clean molecular code following solid principles testing and cicd i write clean molecular code following solid principles",
+      "category": "thin"
+    },
+    {
+      "timestamp": "18:55:59",
+      "q_id": "7.1",
+      "role": "followup_question",
+      "speaker": "AI Interviewer (Sandbox)",
+      "topic": "Code Quality",
+      "text": "Can you tell me more about what you mean by 'molecular code' and how it helps with maintainability?",
+      "category": null
+    },
+    {
+      "timestamp": "18:57:15",
+      "q_id": "7.1",
+      "role": "followup_answer",
+      "speaker": "Candidate",
+      "topic": "Code Quality",
+      "text": "modular code is the practice of breaking a massive complex software program down into smaller ones modeler code is the practice of breaking a massive complex software program down into smaller ones or independent and self-contained pieces these modules or the components like each piece has one specific job and it doesn't care how the other piece do their job so it knows how to just talk and converse with other modules not like it work like mostly independently but it is also like dependent on others or independent and self-contained pieces these modules or the components like each piece has one specific job and it doesn't care how the other piece do their job so it knows how to just talk and converse with other modules not like it work like mostly independently but it is also like dependent on others so yeah so yeah i can give you example if needed i can give you example if needed",
+      "category": "strong"
+    },
+    {
+      "timestamp": "18:57:16",
+      "q_id": "8",
+      "role": "question",
+      "speaker": "AI Interviewer (Sandbox)",
+      "topic": "Learning",
+      "text": "You brought up modular code which I think is a really interesting way to approach complex software. \n\nCan you tell me about a technology or skill you've taught yourself recently and how you went about it?",
+      "category": null
+    },
+    {
+      "timestamp": "18:57:52",
+      "q_id": "8",
+      "role": "answer",
+      "speaker": "Candidate",
+      "topic": "Learning",
+      "text": "yes i like recently yes i like recently learned about learned about something called i last year i deployed a hot fix to optimize something called i last year i deployed a hot fix to optimize",
+      "category": "thin"
+    },
+    {
+      "timestamp": "18:57:52",
+      "q_id": "8.1",
+      "role": "followup_question",
+      "speaker": "AI Interviewer (Sandbox)",
+      "topic": "Learning",
+      "text": "So you learned about something called a hot fix last year, that's interesting, can you explain to me exactly how you used it to optimize a process.",
+      "category": null
+    },
+    {
+      "timestamp": "18:58:35",
+      "q_id": "8.1",
+      "role": "followup_answer",
+      "speaker": "Candidate",
+      "topic": "Learning",
+      "text": "so last year hot fixed optimizer user query unfortunately i omitted a critical database index in migration script which caused the database cpu to spike 100 under high traffic so last year hot fixed optimize a user query unfortunately i omitted a critical database index in migration script which caused the database cpu to spike 100 under high traffic bringing down our bringing down our checkout servers checkout servers so i so i",
+      "category": "thin"
+    },
+    {
+      "timestamp": "18:58:36",
+      "q_id": "9",
+      "role": "question",
+      "speaker": "AI Interviewer (Sandbox)",
+      "topic": "Ownership",
+      "text": "I see you have some experience with the optimizer and migration scripts. \n\nNow, can you walk me through a situation where something you built ended up causing a problem in production?",
+      "category": null
+    },
+    {
+      "timestamp": "18:59:30",
+      "q_id": "9",
+      "role": "answer",
+      "speaker": "Candidate",
+      "topic": "Ownership",
+      "text": "yes yes",
+      "category": "thin"
+    },
+    {
+      "timestamp": "18:59:31",
+      "q_id": "9.1",
+      "role": "followup_question",
+      "speaker": "AI Interviewer (Sandbox)",
+      "topic": "Ownership",
+      "text": "Can you tell me more about what you did when something you built broke in production.",
+      "category": null
+    },
+    {
+      "timestamp": "19:00:04",
+      "q_id": "9.1",
+      "role": "followup_answer",
+      "speaker": "Candidate",
+      "topic": "Ownership",
+      "text": "yes",
+      "category": "thin"
+    },
+    {
+      "timestamp": "19:00:05",
+      "q_id": "10",
+      "role": "question",
+      "speaker": "AI Interviewer (Sandbox)",
+      "topic": "Growth",
+      "text": "So you're a yes person, always up for new challenges.\n\nWhere do you see yourself growing technically in the next two years?",
+      "category": null
+    },
+    {
+      "timestamp": "19:01:49",
+      "q_id": "10",
+      "role": "answer",
+      "speaker": "Candidate",
+      "topic": "Growth",
+      "text": "so i hopped into the incident with channel and then i notified the stakeholders that was rolling back my specific deployment and bought down the platform back online within seven minutes so once the hot fix was reverted i identified the missing index however the instead of just fixing the crypt and moving on i focused on preventing it from happening again next two years i want to deepen my expertise in cloud infrastructure architecture especially around kubernetes so i hopped into the incident with channel and then i notified the stakeholders that was rolling back my specific deployment and bought down the platform back online within seven minutes so once the hot fix was reverted i identified the missing index however the instead of just fixing the crypt and moving on i focused on preventing it from happening again next two years i want to deepen my expertise in cloud infrastructure architecture especially around kubernetes multi-region cluster optimization and cloud cost management i plan on tackling this by taking on more infrastructure heavy task in my current role studying advanced distributed system theory and earning my certified kubernetes administrator certification so my motivation is that my career progress my goal is to bridge gap between pure software development and robust platform engineering multi-region cluster optimization and cloud cost management i plan on tackling this by taking on more infrastructure heavy task in my current role studying advanced distributed system theory and earning my certified kubernetes administrator certification so my motivation is that my career progress my goal is to bridge gap between pure software development and robust platform engineering this technical growth aligns perfectly with my responsibilities of staff or a principal engineer where i can design highly resilient cost effective architectures that scale seamlessly with business growth this technical growth aligns perfectly with my responsibilities of staff or a principal engineer where i can design highly resilient cost effective architectures that scale seamlessly with business growth",
+      "category": "strong"
+    },
+    {
+      "timestamp": "19:01:50",
+      "q_id": "closing",
+      "role": "closing",
+      "speaker": "AI Interviewer (Sandbox)",
+      "topic": null,
+      "text": "I'm impressed by how quickly you got the platform back online, within just seven minutes, that's a great example of your quick thinking under pressure. That completes our interview. Thank you for your time \u2014 your responses will be sent for further assessment and our team will be in touch.",
+      "category": null
+    }
+  ]
+}

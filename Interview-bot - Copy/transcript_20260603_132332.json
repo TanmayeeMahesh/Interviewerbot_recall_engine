@@ -1,0 +1,332 @@
+{
+  "completion_status": "completed",
+  "ended_at": "2026-06-03 13:23:32",
+  "questions_reached": 11,
+  "total_questions": 10,
+  "transcript": [
+    {
+      "timestamp": "13:07:41",
+      "q_id": "intro",
+      "role": "intro",
+      "speaker": "AI Interviewer (Sandbox)",
+      "topic": null,
+      "text": "Hello! I'm your AI interviewer today. This session is recorded and transcribed. Do you consent to proceed? Please say yes to continue.",
+      "category": null
+    },
+    {
+      "timestamp": "13:08:06",
+      "q_id": "1",
+      "role": "question",
+      "speaker": "AI Interviewer (Sandbox)",
+      "topic": "Introduction",
+      "text": "Can you briefly introduce yourself and tell me about your current role?",
+      "category": null
+    },
+    {
+      "timestamp": "13:08:46",
+      "q_id": "1",
+      "role": "answer",
+      "speaker": "Candidate",
+      "topic": "Introduction",
+      "text": "my name is sanma hello my name is tanmay and i'm a software engineer i have two years of experience i have worked in",
+      "category": "thin"
+    },
+    {
+      "timestamp": "13:08:47",
+      "q_id": "1.1",
+      "role": "followup_question",
+      "speaker": "AI Interviewer (Sandbox)",
+      "topic": "Introduction",
+      "text": "You mentioned working as a software engineer, can you explain what you mean by 'two years of experience' since that can be a bit vague, for example, are those two years of experience in one company or spread across different roles and environments.",
+      "category": null
+    },
+    {
+      "timestamp": "13:09:49",
+      "q_id": "1.1",
+      "role": "followup_answer",
+      "speaker": "Candidate",
+      "topic": "Introduction",
+      "text": "yes i want to continue the first company was startup hour and the second company for the last one year it is belurus it is located in delhi and it's a service based company it handles ecg sorry esg and other services",
+      "category": "thin"
+    },
+    {
+      "timestamp": "13:09:50",
+      "q_id": "2",
+      "role": "question",
+      "speaker": "AI Interviewer (Sandbox)",
+      "topic": "Technical Skills",
+      "text": "You've worked with a service-based company in Delhi, handling ESG services. \n\nSo, let's talk about your technical skills - what programming languages are you most comfortable with and why?",
+      "category": null
+    },
+    {
+      "timestamp": "13:10:33",
+      "q_id": "2",
+      "role": "answer",
+      "speaker": "Candidate",
+      "topic": "Technical Skills",
+      "text": "i'm comfortable in python and since my like bachelor's i have done most of the courses in python and recently it has like very good language for building ai and ml projects and it has a good what",
+      "category": "thin"
+    },
+    {
+      "timestamp": "13:10:33",
+      "q_id": "2.1",
+      "role": "followup_question",
+      "speaker": "AI Interviewer (Sandbox)",
+      "topic": "Technical Skills",
+      "text": "You mentioned Python has been a good language for building AI projects, can you tell me more about how you would handle overfitting in a neural network model?",
+      "category": null
+    },
+    {
+      "timestamp": "13:11:32",
+      "q_id": "2.1",
+      "role": "followup_answer",
+      "speaker": "Candidate",
+      "topic": "Technical Skills",
+      "text": "i am comfortable with python because it is very easy and nearer to english and it's easy to develop good scalable projects in it and recently the whole python community is like very supportive and i can build good projects in machine learning and deep learning",
+      "category": "strong"
+    },
+    {
+      "timestamp": "13:11:33",
+      "q_id": "3",
+      "role": "question",
+      "speaker": "AI Interviewer (Sandbox)",
+      "topic": "Project Experience",
+      "text": "I'm glad to hear you appreciate the python community's support. \n\nTell me about a challenging project you worked on recently.",
+      "category": null
+    },
+    {
+      "timestamp": "13:12:45",
+      "q_id": "3",
+      "role": "answer",
+      "speaker": "Candidate",
+      "topic": "Project Experience",
+      "text": "challenging project i worked recently was a project where we automated the hiring process starting from scheduling the meeting and like sending the email to the candidate and then he attending and we have to record the whole meetings and everything the challenge we faced there was that there were many engineering level challenges because we had to take so many micro decisions and it and the major platform was platform issues like we were using recall ai and it was subscription based model and then the teams also had like very limited options for the third party apps like recall ai",
+      "category": "strong"
+    },
+    {
+      "timestamp": "13:12:46",
+      "q_id": "4",
+      "role": "question",
+      "speaker": "AI Interviewer (Sandbox)",
+      "topic": "Problem Solving",
+      "text": "I'm glad you mentioned the challenge of working with a subscription-based model, that sounds like it could be tricky to manage. \n\nCan you walk me through how you approach debugging a complex issue in production?",
+      "category": null
+    },
+    {
+      "timestamp": "13:13:53",
+      "q_id": "4",
+      "role": "answer",
+      "speaker": "Candidate",
+      "topic": "Problem Solving",
+      "text": "okay so we deployed one volunteering website there the donors has to do the payment at a time at the same time there we face the problem where all the donors were simultaneously working on the like doing the donations at the same time so while doing that we couldn't handle the traffic which was there for the website so there how we handled is like we stopped the current website and rolled back to the previous one which was working better and within five to ten minutes we were able to recognize what was the challenge we solved it and we re-hosted the same thing very quickly",
+      "category": "thin"
+    },
+    {
+      "timestamp": "13:13:55",
+      "q_id": "4.1",
+      "role": "followup_question",
+      "speaker": "AI Interviewer (Sandbox)",
+      "topic": "Problem Solving",
+      "text": "You mentioned stopping the current website, can you explain what you mean by \"stopping\" it, did you mean taking it offline or actually implementing a failover to a different instance or service?",
+      "category": null
+    },
+    {
+      "timestamp": "13:14:35",
+      "q_id": "4.1",
+      "role": "followup_answer",
+      "speaker": "Candidate",
+      "topic": "Problem Solving",
+      "text": "actually we took it offline we hired a backup other website which was working normally but it didn't have much features at the new website had so we had to take it completely offline and work on it and then deploy it and bring it online again",
+      "category": "thin"
+    },
+    {
+      "timestamp": "13:14:36",
+      "q_id": "5",
+      "role": "question",
+      "speaker": "AI Interviewer (Sandbox)",
+      "topic": "System Design",
+      "text": "You mentioned taking a new website offline to work on it, that sounds like a tough decision. \n\nCan you walk me through how you'd design a system that needs to handle high traffic reliably?",
+      "category": null
+    },
+    {
+      "timestamp": "13:15:12",
+      "q_id": "5",
+      "role": "answer",
+      "speaker": "Candidate",
+      "topic": "System Design",
+      "text": "we can continue",
+      "category": "thin"
+    },
+    {
+      "timestamp": "13:15:13",
+      "q_id": "5.1",
+      "role": "followup_question",
+      "speaker": "AI Interviewer (Sandbox)",
+      "topic": "System Design",
+      "text": "Can you walk me through how we would 'continue' to handle the traffic, given that high traffic by definition is already overwhelming the system?",
+      "category": null
+    },
+    {
+      "timestamp": "13:15:38",
+      "q_id": "5.1",
+      "role": "followup_answer",
+      "speaker": "Candidate",
+      "topic": "System Design",
+      "text": "i don't know the answer for this question we can continue to the other question",
+      "category": "thin"
+    },
+    {
+      "timestamp": "13:15:39",
+      "q_id": "6",
+      "role": "question",
+      "speaker": "AI Interviewer (Sandbox)",
+      "topic": "Collaboration",
+      "text": "You mentioned continuing to another question, I'd like to explore a situation where you had to pause briefly to address a disagreement, can you tell me about a time when you disagreed with a teammate on a technical decision and how you handled it?",
+      "category": null
+    },
+    {
+      "timestamp": "13:17:01",
+      "q_id": "6",
+      "role": "answer",
+      "speaker": "Candidate",
+      "topic": "Collaboration",
+      "text": "yes there were many technical challenges while we faced building a project like one of my peer was suggesting some other kind of database like sqlite and i was suggesting supabase but like we i gave some time to understand what her suggestion was and then we evaluated which would go best for us we list down the requirements and then the other teammate also agreed for the for our decision so i gave her a chance to understand my thoughts or as well and we once we were at the same page then we took the decision like together so communication and being transparent about your thought help",
+      "category": "strong"
+    },
+    {
+      "timestamp": "13:17:02",
+      "q_id": "7",
+      "role": "question",
+      "speaker": "AI Interviewer (Sandbox)",
+      "topic": "Code Quality",
+      "text": "I appreciate your emphasis on communication and transparency in your team's decision-making process. \n\nIt's interesting to consider how those same principles can be applied to writing code that's not only correct, but also easy for others to understand and work with over time - how do you ensure the code you write is maintainable and reliable?",
+      "category": null
+    },
+    {
+      "timestamp": "13:18:25",
+      "q_id": "7",
+      "role": "answer",
+      "speaker": "Candidate",
+      "topic": "Code Quality",
+      "text": "yes i want to add so i want i will stick to the principles like coding practices defined by the company and the senior managers whoever i will take their suggestions from them and i have my own principles while coding i would write like easy to understand code and i would add comments to my code so that others can understand and i would like to keep it modular so that if anyone continuing the project should be easily able to take up my project",
+      "category": "strong"
+    },
+    {
+      "timestamp": "13:18:26",
+      "q_id": "8",
+      "role": "question",
+      "speaker": "AI Interviewer (Sandbox)",
+      "topic": "Learning",
+      "text": "I like that you're committed to writing code that others can easily understand. \n\nYou know, I'm curious to hear about a technology or skill you've picked up on your own lately.",
+      "category": null
+    },
+    {
+      "timestamp": "13:19:23",
+      "q_id": "8",
+      "role": "answer",
+      "speaker": "Candidate",
+      "topic": "Learning",
+      "text": "i learned goal language recently it was required for one of our publication so i didn't learn that language before it was a bit difficult but with help of the internet and all the tutorials and everything i learned this go language and most of our teammates didn't learn this and also like with the help of all the tutorials they also came up and then we talked to",
+      "category": "thin"
+    },
+    {
+      "timestamp": "13:19:24",
+      "q_id": "8.1",
+      "role": "followup_question",
+      "speaker": "AI Interviewer (Sandbox)",
+      "topic": "Learning",
+      "text": "So you said most of your teammates didn't learn Go language, but then you mentioned they also came up with it after watching tutorials, can you explain how that works, because it sounds like they actually did learn it too?",
+      "category": null
+    },
+    {
+      "timestamp": "13:20:12",
+      "q_id": "8.1",
+      "role": "followup_answer",
+      "speaker": "Candidate",
+      "topic": "Learning",
+      "text": "yes so since it's free and easily available in all the platforms rather than like waiting for one person to learn it and that person teaching others we individually took initiative and they learned the concepts and we divided the whole playlist and one person learned one concept later we all discuss with each other and learn from each other each different topic",
+      "category": "thin"
+    },
+    {
+      "timestamp": "13:20:13",
+      "q_id": "9",
+      "role": "question",
+      "speaker": "AI Interviewer (Sandbox)",
+      "topic": "Ownership",
+      "text": "I really like that you mentioned how everyone learned from each other - it sounds like a very collaborative environment. \n\nNow I'd like to switch gears a bit - can you tell me about a time when something you built didn't quite work as planned when it went live?",
+      "category": null
+    },
+    {
+      "timestamp": "13:21:15",
+      "q_id": "9",
+      "role": "answer",
+      "speaker": "Candidate",
+      "topic": "Ownership",
+      "text": "yes there were many instances where i deployed some projects but there were some small system decisions which i made errors in",
+      "category": "thin"
+    },
+    {
+      "timestamp": "13:21:15",
+      "q_id": "9.1",
+      "role": "followup_question",
+      "speaker": "AI Interviewer (Sandbox)",
+      "topic": "Ownership",
+      "text": "Can you tell me more about what you mean by \"small system decisions\" and how exactly you went about making those errors?",
+      "category": null
+    },
+    {
+      "timestamp": "13:21:55",
+      "q_id": "9.1",
+      "role": "followup_answer",
+      "speaker": "Candidate",
+      "topic": "Ownership",
+      "text": "there were some errors in like the video recording was not working in the project which i mentioned and it was asking the candidate to give access to the",
+      "category": "thin"
+    },
+    {
+      "timestamp": "13:21:55",
+      "q_id": "10",
+      "role": "question",
+      "speaker": "AI Interviewer (Sandbox)",
+      "topic": "Growth",
+      "text": "I appreciate you sharing your experience with the video recording issue. \n\nLet's talk about your technical growth - where do you see yourself growing over the next two years?",
+      "category": null
+    },
+    {
+      "timestamp": "13:22:33",
+      "q_id": "10",
+      "role": "answer",
+      "speaker": "Candidate",
+      "topic": "Growth",
+      "text": "next to yours i want to see myself as a senior manager i but i want to like together build such projects till now i have like worked only on such projects where the i don't know that",
+      "category": "thin"
+    },
+    {
+      "timestamp": "13:22:34",
+      "q_id": "10.1",
+      "role": "followup_question",
+      "speaker": "AI Interviewer (Sandbox)",
+      "topic": "Growth",
+      "text": "You mentioned working on projects where you don't know the answer yet, can you tell me more about what you mean by that, and how you would go about figuring it out?",
+      "category": null
+    },
+    {
+      "timestamp": "13:23:15",
+      "q_id": "10.1",
+      "role": "followup_answer",
+      "speaker": "Candidate",
+      "topic": "Growth",
+      "text": "we can continue",
+      "category": "thin"
+    },
+    {
+      "timestamp": "13:23:16",
+      "q_id": "closing",
+      "role": "closing",
+      "speaker": "AI Interviewer (Sandbox)",
+      "topic": null,
+      "text": "That's a good direction to continue from. That completes our interview. Thank you for your time \u2014 your responses will be sent for further assessment and our team will be in touch.",
+      "category": null
+    }
+  ]
+}

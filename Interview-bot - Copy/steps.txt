@@ -1,0 +1,22 @@
+Install ngrok
+Terminal 1 
+ngrok http 8000
+
+Save the file in VS Code (Ctrl + S). app_full.py with your api keys 
+Go to Terminal 2, stop the old server execution using Ctrl + C, and start it up again:
+Bash (run the file) 
+python app_full.py
+
+recall.ai api newkey = 72c77af2b017400594ec6ff144c7a104ae4dd857
+
+Open your personal Teams application, launch an instant room using Meet Now, and copy the personal link (teams.live.com/meet/...).
+Go to Terminal 3 and run your trigger command:
+
+https://teams.live.com/meet/9360266452839?p=jT6iLe7CDkFlVIBJoh
+
+https://teams.live.com/meet/9360266452839?p=jT6iLe7CDkFlVIBJoh
+
+bella@bellurbis.com
+M!985264124203AX
+
+http://127.0.0.1:8000/trigger-bot?meeting_url=https://teams.microsoft.com/meet/48767211563790?p=oqx8F4QoFTjo5RneG7

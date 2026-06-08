@@ -1,0 +1,386 @@
+{
+  "completion_status": "completed",
+  "ended_at": "2026-06-02 18:05:40",
+  "questions_reached": 11,
+  "total_questions": 10,
+  "transcript": [
+    {
+      "timestamp": "17:49:24",
+      "q_id": "intro",
+      "role": "intro",
+      "speaker": "AI Interviewer (Sandbox)",
+      "topic": null,
+      "text": "Hello! I'm your AI interviewer today. This session is recorded and transcribed. Do you consent to proceed? Please say yes to continue.",
+      "category": null
+    },
+    {
+      "timestamp": "17:49:47",
+      "q_id": "1",
+      "role": "question",
+      "speaker": "AI Interviewer (Sandbox)",
+      "topic": "Introduction",
+      "text": "Can you briefly introduce yourself and tell me about your current role?",
+      "category": null
+    },
+    {
+      "timestamp": "17:50:41",
+      "q_id": "1",
+      "role": "answer",
+      "speaker": "Candidate",
+      "topic": "Introduction",
+      "text": "teams invite team invite kajobi project you can access anything no i can't introduce myself i can't tell about my current proof i will give send invite to your mail and his mail so let only three of us handle the db for now later sub to make team project team in the super base project team project so to be edit db edit table sorry i can't tell about my current goal and a sql tables creation curriculum table creation or uditor b is already managed directly no but that scoring logic is i don't know how it is done today we have to discuss with ayush now both the parameters but you can't have like to make a special pdf so per user requirement",
+      "category": "thin"
+    },
+    {
+      "timestamp": "17:50:42",
+      "q_id": "1.1",
+      "role": "followup_question",
+      "speaker": "AI Interviewer (Sandbox)",
+      "topic": "Introduction",
+      "text": "So you have a db that you want only three of us to handle for now, can you explain to me what you mean by db, are you referring to a database management system like MySQL?",
+      "category": null
+    },
+    {
+      "timestamp": "17:51:21",
+      "q_id": "1.1",
+      "role": "followup_answer",
+      "speaker": "Candidate",
+      "topic": "Introduction",
+      "text": "ideas of questions would you change into a place anyway yes we can proceed no i can't introduce myself i can't tell about my current proof it's my sql i don't know from where you're hearing all this sorry i can't tell about my current role my scholar it's my sql i don't know from where you're hearing all this this is not my transcript you are really some old transcript this is not my transcript you are really some old transcript",
+      "category": "thin"
+    },
+    {
+      "timestamp": "17:51:22",
+      "q_id": "2",
+      "role": "question",
+      "speaker": "AI Interviewer (Sandbox)",
+      "topic": "Technical Skills",
+      "text": "I appreciate your honesty about not being able to share your current role. \n\nWhat programming languages are you most comfortable with and why?",
+      "category": null
+    },
+    {
+      "timestamp": "17:51:53",
+      "q_id": "2",
+      "role": "answer",
+      "speaker": "Candidate",
+      "topic": "Technical Skills",
+      "text": "python is most comfortable language to me python is most comfortable language to me",
+      "category": "thin"
+    },
+    {
+      "timestamp": "17:51:55",
+      "q_id": "2.1",
+      "role": "followup_question",
+      "speaker": "AI Interviewer (Sandbox)",
+      "topic": "Technical Skills",
+      "text": "You mentioned that python is your most comfortable language, but you also said it's your most comfortable language to you, can you explain what you mean by that and how it affects your use of python?",
+      "category": null
+    },
+    {
+      "timestamp": "17:52:38",
+      "q_id": "2.1",
+      "role": "followup_answer",
+      "speaker": "Candidate",
+      "topic": "Technical Skills",
+      "text": "it's very effective because it's very effective because most of the ai projects are built most of the ai projects are built based on this based on this that's why i think it's more efficient that's why i think it's more efficient one one",
+      "category": "thin"
+    },
+    {
+      "timestamp": "17:52:39",
+      "q_id": "3",
+      "role": "question",
+      "speaker": "AI Interviewer (Sandbox)",
+      "topic": "Project Experience",
+      "text": "I see you're a big fan of AI projects being built on this approach.",
+      "category": null
+    },
+    {
+      "timestamp": "17:53:38",
+      "q_id": "3",
+      "role": "answer",
+      "speaker": "Candidate",
+      "topic": "Project Experience",
+      "text": "the challenging partner challenging but i was 20 hours automation project where automated the hiring process of automation project where automated the hiring process using the using the first api servers first api servers back end databases and using recall ai back end databases and then using recall ai",
+      "category": "thin"
+    },
+    {
+      "timestamp": "17:53:38",
+      "q_id": "3.1",
+      "role": "followup_question",
+      "speaker": "AI Interviewer (Sandbox)",
+      "topic": "Project Experience",
+      "text": "So you used recall ai in the project, can you explain to me what you mean by recall ai, and how it was used to improve the hiring process?",
+      "category": null
+    },
+    {
+      "timestamp": "17:54:02",
+      "q_id": "3.1",
+      "role": "followup_answer",
+      "speaker": "Candidate",
+      "topic": "Project Experience",
+      "text": "it was a third party app which helps us to what was the third party which helps us to",
+      "category": "vague"
+    },
+    {
+      "timestamp": "17:54:03",
+      "q_id": "4",
+      "role": "question",
+      "speaker": "AI Interviewer (Sandbox)",
+      "topic": "Problem Solving",
+      "text": "I see you're referring to a third-party tool to identify the problem. Can you walk me through how you'd go about debugging a complex issue in production?",
+      "category": null
+    },
+    {
+      "timestamp": "17:54:36",
+      "q_id": "4",
+      "role": "answer",
+      "speaker": "Candidate",
+      "topic": "Problem Solving",
+      "text": "a good a good look at the code first and then look at the code first and then which one is better and everything which one is better and everything",
+      "category": "thin"
+    },
+    {
+      "timestamp": "17:54:37",
+      "q_id": "4.1",
+      "role": "followup_question",
+      "speaker": "AI Interviewer (Sandbox)",
+      "topic": "Problem Solving",
+      "text": "When you say 'a good look at the code first', what do you mean by that exactly, do you mean a line-by-line code review or more of a high-level overview of the system before diving in?",
+      "category": null
+    },
+    {
+      "timestamp": "17:55:56",
+      "q_id": "4.1",
+      "role": "followup_answer",
+      "speaker": "Candidate",
+      "topic": "Problem Solving",
+      "text": "i would look at the high level i would look at the high level",
+      "category": "vague"
+    },
+    {
+      "timestamp": "17:56:04",
+      "q_id": "5",
+      "role": "question",
+      "speaker": "AI Interviewer (Sandbox)",
+      "topic": "System Design",
+      "text": "So you're thinking about the high level. \n\nHow would you design a system that needs to handle high traffic reliably?",
+      "category": null
+    },
+    {
+      "timestamp": "17:56:35",
+      "q_id": "5",
+      "role": "answer",
+      "speaker": "Candidate",
+      "topic": "System Design",
+      "text": "i would implement some algorithms which would help me to i would implement some algorithms which would help me to come out of this challenge come out of this challenge",
+      "category": "thin"
+    },
+    {
+      "timestamp": "17:56:36",
+      "q_id": "5.1",
+      "role": "followup_question",
+      "speaker": "AI Interviewer (Sandbox)",
+      "topic": "System Design",
+      "text": "Can you explain how you would implement those algorithms to actually \"come out of this challenge\" and handle high traffic, rather than just naming the concept of implementing algorithms?",
+      "category": null
+    },
+    {
+      "timestamp": "17:58:02",
+      "q_id": "5.1",
+      "role": "followup_answer",
+      "speaker": "Candidate",
+      "topic": "System Design",
+      "text": "we can continue we can continue",
+      "category": "thin"
+    },
+    {
+      "timestamp": "17:58:04",
+      "q_id": "6",
+      "role": "question",
+      "speaker": "AI Interviewer (Sandbox)",
+      "topic": "Collaboration",
+      "text": "I appreciate your confidence in being able to continue. \n\nLet's talk about a situation where you might not be able to continue on the same page as your colleagues.",
+      "category": null
+    },
+    {
+      "timestamp": "17:58:37",
+      "q_id": "6",
+      "role": "answer",
+      "speaker": "Candidate",
+      "topic": "Collaboration",
+      "text": "at that time i would personally talk to that colleague and understand what their perspective is give them some time to understand at that time i would personally talk to that colleague and understand what their perspective is give them some time to understand",
+      "category": "thin"
+    },
+    {
+      "timestamp": "17:58:38",
+      "q_id": "6.1",
+      "role": "followup_question",
+      "speaker": "AI Interviewer (Sandbox)",
+      "topic": "Collaboration",
+      "text": "Give me an example of a time when you actually gave them some time to understand, and how long was that time exactly.",
+      "category": null
+    },
+    {
+      "timestamp": "17:59:17",
+      "q_id": "6.1",
+      "role": "followup_answer",
+      "speaker": "Candidate",
+      "topic": "Collaboration",
+      "text": "i gave them i gave them pretty good time to understand the conflict pretty good time to understand the conflict so that we can resolve it in a better way so that we can resolve it in a better way because once we understand the question it would be easier to because once we understand the question it would be easier to comment to the same place same page comment to the same place same page",
+      "category": "thin"
+    },
+    {
+      "timestamp": "17:59:17",
+      "q_id": "7",
+      "role": "question",
+      "speaker": "AI Interviewer (Sandbox)",
+      "topic": "Code Quality",
+      "text": "You mentioned giving people a good time to understand the conflict, that's really important for resolving issues. \n\nSo, what do you do to make sure the code you write is easy to understand and work with over time?",
+      "category": null
+    },
+    {
+      "timestamp": "18:00:21",
+      "q_id": "7",
+      "role": "answer",
+      "speaker": "Candidate",
+      "topic": "Code Quality",
+      "text": "i would use i would use the standard protocols the standard protocols which are mentioned by the which are mentioned by the corporate officials corporate officials and also there would be some practices which the company would have adopted and also there would be some practices which the company would have adopted i would try to match both i would try to match both and personally also i have some of the techniques which amplifiers which have been following from long i would like implement and make the code easier and understandable for everyone and i would make it more modular so that the next employees and other colleagues also can take up my project and personally also i have some of the techniques which and principles which i have been following from long i would like implement and make the code easier and understandable for everyone and i would make it more modular so that the next employees and other colleagues also can take up my project",
+      "category": "thin"
+    },
+    {
+      "timestamp": "18:00:21",
+      "q_id": "7.1",
+      "role": "followup_question",
+      "speaker": "AI Interviewer (Sandbox)",
+      "topic": "Code Quality",
+      "text": "You mentioned that you'd try to match the company's standard protocols, but can you tell me how you would handle a situation where there's a disagreement between the corporate officials about what those protocols should be?",
+      "category": null
+    },
+    {
+      "timestamp": "18:01:11",
+      "q_id": "7.1",
+      "role": "followup_answer",
+      "speaker": "Candidate",
+      "topic": "Code Quality",
+      "text": "actually usually in the corporate setting these protocols would be already defined when they give you the project so i don't think i'll face much of the conflicts but even if there are any conflicts i would ask my senior usually in the corporate setting these protocols would be already defined when they give you the project so i don't think i'll face much of the conflict but even if there are any conflicts i would ask my senior project manager and also discuss with the team whichever suits you all we would change our principal project manager and also discuss with the team whichever suits you all we would change our principal",
+      "category": "thin"
+    },
+    {
+      "timestamp": "18:01:13",
+      "q_id": "8",
+      "role": "question",
+      "speaker": "AI Interviewer (Sandbox)",
+      "topic": "Learning",
+      "text": "I appreciate your experience in corporate settings, where protocols are often already in place. \n\nYou know, learning and self-improvement are key qualities we value in our team members.",
+      "category": null
+    },
+    {
+      "timestamp": "18:01:43",
+      "q_id": "8",
+      "role": "answer",
+      "speaker": "Candidate",
+      "topic": "Learning",
+      "text": "thank you thank you",
+      "category": "vague"
+    },
+    {
+      "timestamp": "18:01:43",
+      "q_id": "8.1",
+      "role": "followup_question",
+      "speaker": "AI Interviewer (Sandbox)",
+      "topic": "Learning",
+      "text": "Can you tell me more about what you're thankful for, and how does that relate to something you've learned recently?",
+      "category": null
+    },
+    {
+      "timestamp": "18:02:06",
+      "q_id": "8.1",
+      "role": "followup_answer",
+      "speaker": "Candidate",
+      "topic": "Learning",
+      "text": "so this is just i'm thanking to you as a interviewer for appreciating my answers no this is just i'm thanking to you as a interviewer for appreciating my answers",
+      "category": "vague"
+    },
+    {
+      "timestamp": "18:02:07",
+      "q_id": "9",
+      "role": "question",
+      "speaker": "AI Interviewer (Sandbox)",
+      "topic": "Ownership",
+      "text": "I appreciate you acknowledging the interviewer's role in appreciating your answers. Now can you tell me about a time when something you built encountered issues in production?",
+      "category": null
+    },
+    {
+      "timestamp": "18:02:51",
+      "q_id": "9",
+      "role": "answer",
+      "speaker": "Candidate",
+      "topic": "Ownership",
+      "text": "i suppose there was one i suppose there was one volunteering volunteering project where i volunteered to create a donation website for ngo so there in production together many people started donating and i faced some challenges so that's when i solved it properly project where i volunteered to create a donation website for ngo so there in production together many people started donating and i faced some challenges so that's when i solved it properly",
+      "category": "thin"
+    },
+    {
+      "timestamp": "18:02:51",
+      "q_id": "9.1",
+      "role": "followup_question",
+      "speaker": "AI Interviewer (Sandbox)",
+      "topic": "Ownership",
+      "text": "What do you mean by \"solved it properly\" - did you fix a specific bug, or was there a broader issue with the donation website's functionality that you addressed?",
+      "category": null
+    },
+    {
+      "timestamp": "18:03:45",
+      "q_id": "9.1",
+      "role": "followup_answer",
+      "speaker": "Candidate",
+      "topic": "Ownership",
+      "text": "no no like functionality was like very well planned there was no issue in the functionality but there was some errors in the code which were overlooked but later i solved them yeah it was asking permission from the admin which has which need not to come in between to donate the thing it could be automated so i automated that there was no need of permission from admin to so anyone can actually donate no no like functionality was like very well planned there was no issue in the functionality but there was some errors in the code which were overlooked but later i solved them yeah it was asking permission from the admin which has which need not to come in between to donate the thing it could be automated so i automated that there was no need of permission from admin to so anyone can actually donate and come to that page and donate and come to that page and donate",
+      "category": "strong"
+    },
+    {
+      "timestamp": "18:03:45",
+      "q_id": "10",
+      "role": "question",
+      "speaker": "AI Interviewer (Sandbox)",
+      "topic": "Growth",
+      "text": "I really appreciate your explanation of how you automated the donation process, that sounds like a great achievement. \n\nCan you tell me, where do you see yourself growing technically in the next two years?",
+      "category": null
+    },
+    {
+      "timestamp": "18:04:17",
+      "q_id": "10",
+      "role": "answer",
+      "speaker": "Candidate",
+      "topic": "Growth",
+      "text": "i would like to be like a senior manager in the company i would like to take up good projects i would like to build my portfolio i would like to be like a senior manager in the company i would like to take up good projects i would like to build my portfolio well well",
+      "category": "thin"
+    },
+    {
+      "timestamp": "18:04:18",
+      "q_id": "10.1",
+      "role": "followup_question",
+      "speaker": "AI Interviewer (Sandbox)",
+      "topic": "Growth",
+      "text": "You mentioned wanting to take up 'good projects', can you tell me what you mean by 'good projects' and what kind of impact you'd like to make with them.",
+      "category": null
+    },
+    {
+      "timestamp": "18:05:19",
+      "q_id": "10.1",
+      "role": "followup_answer",
+      "speaker": "Candidate",
+      "topic": "Growth",
+      "text": "good project has in good projects has in like i want to like build good projects which are like ready for the production like i want to like build good projects which are like ready for the production where team can implement where our clients will be actually happy with the way we have created the projects like shofar i was from academic background i have been working on the projects but they were all most of them were like the proof of concept but now when i come to the senior role i would like to directly work with clients where team can implement where our clients will be actually happy with the way we have created the projects like show far i was from academic background i have been working on the projects but they were all most of them were like the proof of concept but now when i come to the senior role i would like to directly work with clients and also the teammates and also the developers overall and also the teammates and also the developers overall",
+      "category": "thin"
+    },
+    {
+      "timestamp": "18:05:20",
+      "q_id": "closing",
+      "role": "closing",
+      "speaker": "AI Interviewer (Sandbox)",
+      "topic": null,
+      "text": "It sounds like you're really passionate about building projects that bring happiness to your clients. That completes our interview. Thank you for your time \u2014 your responses will be sent for further assessment and our team will be in touch.",
+      "category": null
+    }
+  ]
+}

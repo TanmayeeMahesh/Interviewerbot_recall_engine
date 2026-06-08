@@ -1,0 +1,52 @@
+[
+  {
+    "topic": "Introduction",
+    "question": "Can you briefly introduce yourself and tell me about your current role?",
+    "key_concepts": ["current role", "responsibilities", "years of experience", "team size"]
+  },
+  {
+    "topic": "Technical Skills",
+    "question": "What programming languages are you most comfortable with and why?",
+    "key_concepts": ["language name", "reason for preference", "specific use case", "depth of experience"]
+  },
+  {
+    "topic": "Project Experience",
+    "question": "Walk me through a challenging project you worked on recently.",
+    "key_concepts": ["project description", "technical challenge", "your specific role", "outcome or result"]
+  },
+  {
+    "topic": "Problem Solving",
+    "question": "How do you approach debugging a complex issue in production?",
+    "key_concepts": ["methodology", "tools used", "step by step approach", "root cause analysis"]
+  },
+  {
+    "topic": "System Design",
+    "question": "How would you design a system that needs to handle high traffic reliably?",
+    "key_concepts": ["scalability", "load balancing", "caching", "database choices", "failure handling"]
+  },
+  {
+    "topic": "Collaboration",
+    "question": "Tell me about a time you disagreed with a teammate on a technical decision and how you handled it.",
+    "key_concepts": ["specific situation", "your approach", "communication", "resolution", "outcome"]
+  },
+  {
+    "topic": "Code Quality",
+    "question": "How do you ensure the code you write is maintainable and reliable over time?",
+    "key_concepts": ["testing", "code review", "documentation", "design principles", "refactoring"]
+  },
+  {
+    "topic": "Learning",
+    "question": "Tell me about a technology or skill you taught yourself recently and how you went about it.",
+    "key_concepts": ["specific technology", "learning method", "application", "motivation"]
+  },
+  {
+    "topic": "Ownership",
+    "question": "Describe a time something you built broke in production. What did you do?",
+    "key_concepts": ["incident description", "response", "root cause", "prevention", "accountability"]
+  },
+  {
+    "topic": "Growth",
+    "question": "Where do you see yourself growing technically in the next two years?",
+    "key_concepts": ["specific skill or area", "learning plan", "motivation", "alignment with role"]
+  }
+]
